@@ -1,11 +1,23 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import { useWindowSize } from './useWindowSize';
 
 function App() {
   const [price , setPrice] = useState('0.000001');
   const [userAmount , setUserAmount] = useState('99999');
   const [capacity , setCapacity] = useState('99999');
   const [nodesCount , setNodesCount] = useState('99999');
+  const [show, setShow] = useState(false)
+  const onToggle = () => setShow(!show)
+  const { width } = useWindowSize();
+
+  useEffect(() => {
+    if (width < 768) {
+      setShow(true)
+    } else {
+      setShow(false)
+    }
+  }, [width])
 
   useEffect(() => {
     fetch(`https://api.crustfiles.com/common/userAmount`)
@@ -71,8 +83,8 @@ function App() {
             <div class="brand">
               <a href="#splash"><img src="images/logo.png" /></a>
             </div>
-            <i class="bi bi-list nav-toggle"></i>
-            <ul>
+            <i class="bi bi-list nav-toggle" onClick={onToggle}></i>
+            <ul hidden={show}>
               <li><a href="#about" class="active">Home</a></li>
               <li><a href="#skills">Benefits</a></li>
               <li><a href="#portfolio">Features</a></li>
