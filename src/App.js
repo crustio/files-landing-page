@@ -143,7 +143,7 @@ function App() {
             <div class="col-12 col-sm-12 col-md-6 col-lg-3 Capacity TB">
               <div class="Storage distributed">
                 <div class="nodes">
-                  <h2><span>{price} $/GB/Year</span></h2>
+                  <h2 style={{ fontSize: '22px' }}>{price} $/GB/Year</h2>
                   <p>Real time storage price</p>
                 </div>
                 <img src="images/Line.png" />
