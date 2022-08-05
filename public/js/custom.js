@@ -65,13 +65,13 @@ $( window ).resize( function() {
 ////////////////////////////////////////////////
 // hamburger
 
-const hamburger = document.querySelector('.hamburger')
+// const hamburger = document.querySelector('.hamburger')
 
-const activeMenu = () => {
-  hamburger.classList.toggle('active')
-}
+// const activeMenu = () => {
+//   hamburger.classList.toggle('active')
+// }
 
-hamburger.addEventListener('click', activeMenu)
+// hamburger.addEventListener('click', activeMenu)
 
 
 

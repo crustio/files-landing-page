@@ -69,7 +69,7 @@ function App() {
         <nav class="nav">
           <div class="container-fluid cf">
             <div class="brand">
-              <a href="#splash"><img src="/images/logo.png" /></a>
+              <a href="#splash"><img src="images/logo.png" /></a>
             </div>
             <i class="bi bi-list nav-toggle"></i>
             <ul>
