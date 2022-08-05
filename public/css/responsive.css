@@ -1,0 +1,737 @@
+@media (min-width: 768px) {
+  
+nav .nav-toggle {
+    display: none;
+  }
+nav ul {
+    border: none;
+    clear: none;
+    display: inline-block !important;
+    float: right;
+    margin: 0;
+    padding: 25px 0;
+    display: flex !important;
+    align-items: center;
+}
+nav ul li {
+    border: none;
+    display: inline-block;
+    float: left;
+    margin-right: 4.5em;
+}
+  
+  nav ul li:last-of-type {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    padding: 0;
+  }
+  
+}
+
+@media (max-width: 1700px) {
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav ul li a {
+    font-size: 14px;
+}
+.brand img {
+    width: 150px;
+}
+.Launch {
+    font-size: 12px;
+}
+.logo-h img {
+    width: 190px;
+}
+.banner h1 {
+    font-size: 44px;
+}
+.banner h2 {
+    font-size: 31px;
+}
+.btn-h {
+    padding: 14px 34px;
+    font-size: 14px;
+}
+.banner {
+    height: 600px;
+}
+.banner .container-fluid {
+    height: 600px;
+}
+.banner .container-fluid .row {
+    height: 600px;
+}
+.Storage h2 {
+    font-size: 23px;
+}
+.Storage p {
+    font-size: 14px;
+}
+.Storage.distributed {
+    padding: 0 0 0 16px;
+}
+.Storage.distributed span {
+    font-size: 16px;
+}
+.Storage-Capacity {
+    padding: 50px 0;
+}
+.journey h3 {
+    font-size: 32px;
+    margin-bottom: 21px;
+    line-height: 44px;
+}
+.journey p {
+    font-size: 14px;
+}
+.journey.switch p {
+    font-size: 14px;
+}
+.journey.switch h4 {
+    font-size: 58px;
+}
+.immutable img {
+    width: 46px;
+}
+.immutable {
+    width: 80px;
+    height: 46.735px;
+    margin-top: -56px;
+}
+
+.immutable::before {
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 22.8675px solid white;
+    top: -22.8675px;
+}
+.immutable::after {
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 22.8675px solid white;
+      bottom: -22.8675px;
+}
+.box h4 {
+    font-size: 18px;
+}
+.journey.storesdd p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.box h4 {
+    margin-top: 46px;
+    margin-bottom: 9px;
+}
+.Cloud img {
+    width: 54px;
+}
+.Cloud h5 {
+    margin: 18px 0;
+    font-size: 22px;
+}
+.Cloud p {
+    font-size: 16px;
+    width: 90%;
+}
+.Features h4 {
+    font-size: 32px;
+}
+.featuresds img {
+    height: 400px;
+}
+.inner-logo img {
+    width: 120px;
+}
+.Features.Multi-chain p {
+    font-size: 20px;
+}
+.journey.networkss p {
+    font-size: 16px;
+}
+.steps .steps-container .date {
+    font-size: 14px;
+}
+.content ul li {
+    font-size: 14px;
+    margin: 6px 0;
+}
+.hows img {
+    width: 90px;
+}
+.journey.get p {
+    width: 90%;
+    font-size: 15px;
+    margin: 25px auto 10px;
+    line-height: 26px;
+}
+.journey.get.Asked h6 {
+    font-size: 30px;
+}
+.accordion-button {
+    font-size: 16px;
+    padding: 17px 1.5rem;
+}
+.editorsa img {
+    width: 70%;
+}
+.accordion .accordion-item .accordion-body p, .accordion .accordion-item .accordion-body ul li {
+    font-size: 14px;
+    line-height: 29px;
+}
+footer {
+    padding: 60px 0 0 0;
+}
+footer a {
+    font-size: 16px;
+}
+.footer-logo img {
+    width: 228px;
+}
+footer p {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.Crustss li a i {
+    font-size: 24px;
+}
+.accordion-button::after {
+    background-size: 71%;
+    background-position: center;
+}
+.readables {
+    font-size: 14px;
+    line-height: 21px;
+}
+.editorsa.documentation p {
+    margin: 34px auto !important;
+}
+.editorsa.documentation a {
+    padding: 11px;
+    font-size: 13px;
+    width: 65%;
+}
+.editorsa.documentation span {
+    font-size: 14px;
+}
+.journey.get.Asked .editorsa.documentation h6 {
+    font-size: 44px;
+    line-height: 58px;
+}
+.Cloud a {
+    font-size: 16px;
+}
+
+}
+
+@media(max-width:1500px){
+    .Cloud .Flip_back h5 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .Cloud .Flip_back p {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+.container-fluid {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.Cloud h5 {
+    margin: 18px 0 10px;
+    font-size: 18px;
+}
+.Cloud p {
+    font-size: 14px;
+}
+.Flip_back {
+    padding: 30px 20px;
+}
+}
+
+@media (max-width: 1300px) {
+    .flip_inner {
+        padding-top: 68%;
+    }
+    
+    }
+
+@media (max-width: 1199px) {
+.logo-h img {
+    width: 170px;
+} 
+nav ul li {
+    margin-right: 3.5em;
+}  
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.banner h1 {
+    font-size: 38px;
+}
+.banner h2 {
+    font-size: 28px;
+}
+.Storage {
+    padding: 44px 17px;
+}
+
+.journey h3 {
+    font-size: 28px;
+}
+.journey.switch p {
+    line-height: 26px;
+     width: 94%;
+}
+.journey.switch h4 {
+    font-size: 46px;
+}
+.box {
+    flex: 0 32%;
+}
+.Cloud {
+    padding: 10px;
+    margin: 0 0 25px;
+}
+.Cloud.Files {
+    margin: 0 0px 0px;
+}
+.inner-logo {
+    margin: 11px 18px;
+}
+.accessible img {
+    width: 52%;
+}
+.journey.networkss {
+    padding: 30px 0;
+}
+.journey p {
+    font-size: 14px;
+    line-height: 28px;
+}
+.journey.get h6 {
+    font-size: 32px;
+}
+.hows {
+    border-radius: 20px;
+    padding: 30px 3px;
+    height: 100%;
+}
+.hows img {
+    width: 80px;
+}
+.readables {
+    font-size: 14px;
+    width: 90%;
+}
+footer {
+    padding: 50px 0 0 0;
+}
+.footer-logo {
+    margin: 20px 0px 40px auto;
+}
+.footer-logo img {
+    width: 200px;
+}
+footer img {
+    width: 100px;
+}
+.flip_front, .Flip_back {
+    padding: 30px 20px;
+}
+.Cloud p {
+    width: 100%;
+}
+.flip_inner {
+    padding-top: 88%;
+}
+
+
+}
+@media (max-width: 1024px) {
+.Storage {
+    padding: 44px 20px;
+}
+.Storage h2 {
+    font-size: 22px;
+}
+.Storage.distributed {
+    padding: 0 0 0 4px;
+}
+}
+@media (max-width: 912px) {
+.logo-h img {
+    width: 170px;
+} 
+nav ul li {
+    margin-right: 3.5em;
+}  
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.banner h1 {
+    font-size: 38px;
+}
+.banner h2 {
+    font-size: 28px;
+}
+.Storage.distributed img {
+    display: none;
+}
+
+.Capacity.TB {
+    margin-top: 46px;
+}
+.journey h3 {
+    font-size: 28px;
+}
+.journey.switch p {
+    line-height: 26px;
+     width: 94%;
+}
+.journey.switch h4 {
+    font-size: 46px;
+}
+.box {
+    flex: 0 32%;
+}
+
+.Cloud.Files {
+    margin: 0 0px 0px;
+}
+.inner-logo {
+        margin: 22px 0px;
+}
+.inner-logo img {
+    width: 99px;
+}
+.accessible img {
+    width: 68%;
+}
+.journey.networkss {
+    padding: 30px 0;
+}
+.journey p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.journey.get h6 {
+    font-size: 32px;
+}
+.hows {
+    border-radius: 20px;
+    padding: 30px 3px;
+    height: 100%;
+}
+.hows img {
+    width: 80px;
+}
+.readables {
+    font-size: 14px;
+    width: 90%;
+}
+footer {
+    padding: 50px 0 0 0;
+}
+.footer-logo {
+    margin: 20px 0px 40px auto;
+}
+.footer-logo img {
+    width: 200px;
+}
+footer img {
+    width: 100px;
+}
+.journey.get.Asked .editorsa.documentation h6 {
+    font-size: 38px;
+    line-height: 50px;
+}
+.editorsa.documentation a {
+    width: 92%;
+}
+.Cloud {
+    padding: 0px;
+    margin: 0 0 22px;
+}
+.flip_inner {
+    padding-top: 123%;
+}
+}
+
+@media (max-width: 768px) {
+nav ul li {
+    margin-right: 2.5em;
+}  
+.banner h1 {
+    font-size: 34px;
+}
+.banner h2 {
+    font-size: 24px;
+}  
+.journey h3 {
+    font-size: 26px;
+}
+.box {
+    flex: 0 31%;
+}
+.inner-logo img {
+    width: 98px;
+}
+.hows img {
+    width: 70px;
+}
+footer a {
+    font-size: 14px;
+}
+.Crustss li a i {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 767px) {
+nav .brand {
+    height: auto;
+    width: 85%;
+} 
+nav ul {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+nav ul li {
+    margin-right: 0;
+}
+nav ul li .active:after {
+    width: 0;
+}
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.banner {
+    height: 480px;
+}
+.banner .container-fluid {
+    height: 480px;
+}
+.banner .container-fluid .row {
+    height: 480px;
+}
+.logo-h img {
+    width: 141px;
+}
+.banner h1 {
+    font-size: 25px;
+    line-height: 36px;
+    text-shadow: 2px 2px 5px rgb(0 0 0 / 30%);
+}
+.banner h2 {
+    font-size: 18px;
+}
+.btn-h {
+    padding: 11px 34px;
+    font-size: 12px;
+}
+.Storage {
+    padding: 30px 20px;
+}
+.Capacity:first-child {
+    margin-bottom: 31px;
+}
+.Capacity.TB {
+    margin-top: 30px;
+}
+.Storage.distributed span {
+    font-size: 14px;
+}
+.Storage p {
+    font-size: 12px;
+}
+.Storage h2 {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.journey {
+    padding: 50px 0;
+    background-position: left;
+}
+.journey.switch {
+    background-image: none;
+    padding: 50px 0;
+}
+.img-fluid.personal {
+    width: 72%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    display: block;
+}
+.journey.networkss p {
+    width: 100%;
+}
+.journey h3 {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+}
+.journey.switch h4 {
+    font-size: 36px;
+    margin: 20px 0 0px;
+}
+.box {
+    flex: 0 100%;
+    margin: 34px 5px;
+}
+.Features h4 {
+    font-size: 24px;
+    line-height: 32px;
+     text-shadow: 2px 2px 5px rgb(0 0 0 / 30%);
+}
+.Cloud h5 {
+    font-size: 20px;
+}
+.Cloud p {
+    font-size: 14px;
+}
+.Cloud.Files {
+    margin: 0 0 36px;
+}
+.Features {
+    padding: 50px 0px 30px;
+}
+.Features.Multi-chain {
+    padding: 0px 0px 50px 0;
+    overflow: hidden;
+}
+.inner-logo {
+    margin: 11px 18px;
+    display: inline-block;
+}
+.Launch {
+    margin: 10px auto;
+    text-align: center;
+}
+.inner-logo img {
+    width: 128px;
+}
+.Features.Multi-chain p {
+    font-size: 17px;
+}
+.logoe {
+    text-align: center;
+    margin-top: 1em;
+}
+.logo-slider .logoe {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+    display: inline-block;
+}
+.logo-slider .logos {
+  width: 100%;
+  display: inline-block;
+  margin: 0px 0;
+}
+.logo-slider .logos .inner-logo {
+  width: calc(100% / 5);
+  animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.steps {
+    position: relative;
+    margin-top: 40px;
+}
+.Features.Multi-chain.sdsds{
+    padding: 30px 0px 50px 0;
+}
+.journey.get h6 {
+    font-size: 24px;
+    line-height: 32px;
+}
+.hows {
+    height: auto;
+    margin-bottom: 20px;
+}
+.journey.get.Asked h6 {
+    font-size: 24px;
+    line-height: 32px;
+     text-shadow: 2px 2px 5px rgb(0 0 0 / 30%);
+}
+.journey.get.Asked .editorsa.documentation h6 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 2em;
+}
+.editorsa.documentation p {
+    width: 100%;
+}
+footer img {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 18px;
+}
+footer ul {
+    margin-bottom: 10px;
+}
+footer p {
+    font-size: 12px;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+.flip_inner {
+    padding-top: 80%;
+}
+.plans_btn a {
+    margin: 0 auto 4rem;
+}
+.journey p {
+    text-align: center;
+    margin: 0 auto 40px;
+}
+.journey .btn-h {
+    margin: 0 auto;
+}
+.Storage .nodes {
+    width: 100%;
+    text-align: center;
+}
+.journey.switch .Dropbox p {
+    text-align: center;
+}
+.journey .btn-h.more {
+    margin-top: 3em;
+}
+.journey.networkss h3 br {
+    display: block;
+}
+.journey.get {
+    background-image: none;
+    background: linear-gradient(88.03deg, #BB6D18 -5.61%, #F99619 39.78%, #CAA244 109.96%);
+}
+
+
+}

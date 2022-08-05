@@ -1,0 +1,1079 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #141414;
+}
+
+.container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+section {
+    overflow: hidden;
+}
+a {
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+
+}
+
+p {
+    margin: 0;
+}
+
+/*-----header-----*/
+header {
+    position: absolute;
+    width: 100%;
+}
+
+@keyframes show-header {
+    0% {
+        top: -2em;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+nav {
+    position: relative;
+    top: 0;
+    z-index: 9;
+}
+
+nav a,
+nav a:hover,
+nav a:focus,
+nav a:active,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav .brand {
+    display: flex;
+    float: left;
+    font-size: 1.25em;
+    font-weight: 900;
+    height: 100%;
+    align-items: center;
+}
+
+.brand img {
+    width: 166px;
+}
+
+nav .brand a {
+    color: #444;
+    display: block;
+    padding: 1em 0;
+}
+
+.nav-toggle {
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-size: 33px;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+
+nav ul {
+    border-top: 1px solid #ccc;
+    clear: both;
+    list-style: none;
+    margin: 0 -1em;
+    padding: 0;
+    z-index: 999;
+}
+
+nav ul li {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #141414;
+    display: block;
+    padding: 0.75em;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #E76E0F;
+}
+
+nav ul li a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 0;
+    transition: width 0s ease, background .35s ease;
+    background-color: #E76E0F;
+}
+
+nav ul li a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 0;
+    background-color: #E76E0F;
+    transition: width .35s ease;
+}
+
+nav ul li:hover a:hover:before {
+    width: 100%;
+    background-color: #E76E0F;
+    transition: width .35s ease;
+}
+
+nav ul li:hover a:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+nav ul li .active {
+    color: #E76E0F;
+    position: relative;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+nav ul li .active:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 20px;
+    height: 3px;
+    background-color: #e7700f;
+    left: 0px;
+    transition: 0.3s;
+}
+
+nav.sticky {
+    animation: show-header .5s ease;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+}
+
+.Launch {
+    background-image: linear-gradient(to right, #BB6D18, #F99619, #F99619, #CAA244);
+    box-shadow: 6px 4px 15px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    padding: 8px 23px;
+    display: block;
+    color: #fff;
+    width: max-content;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-size: 200% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+nav ul li .Launch:hover {
+    color: #fff;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+nav ul li:hover .Launch:hover:before {
+    width: 0%;
+}
+
+nav ul li:hover .Launch:hover:after {
+    width: 0%;
+}
+
+/*----- header -----*/
+
+/*----- banner -----*/
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 780px;
+}
+
+.logo-h {
+    width: max-content;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    box-shadow: 3px 2px 2px rgb(0 0 0 / 25%);
+    border-radius: 14px;
+}
+
+.banner .container-fluid {
+    height: 780px;
+}
+
+.banner .container-fluid .row {
+    height: 780px;
+}
+
+.banner h1 {
+    color: #141414;
+    text-shadow: 2px 4px 4px rgb(0 0 0 / 30%);
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.banner h2 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 35px;
+    margin-bottom: 1em;
+}
+
+.btn-h {
+    background-image: linear-gradient(to right, #BB6D18, #F99619, #F99619, #CAA244);
+    box-shadow: 6px 4px 15px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 16px 40px;
+    display: block;
+    color: #fff;
+    width: max-content;
+    font-weight: 500;
+    font-size: 16px;
+    background-size: 200% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-h:hover {
+    color: #fff;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+/*----- banner -----*/
+
+/*----- Storage-Capacity -----*/
+.Storage-Capacity {
+    background: linear-gradient(88.03deg, #BB6D18 -5.61%, #F99619 39.78%, #CAA244 109.96%);
+    padding: 70px 0;
+}
+
+.Storage {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 44px 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+.Storage a {
+    color: #000;
+}
+.Storage.distributed {
+    background-color: transparent;
+    padding: 0 0 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.Storage h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.Storage p {
+    font-weight: 600;
+}
+
+.Storage.distributed img {
+    position: absolute;
+    right: 0;
+}
+
+.Storage.distributed span {
+    font-size: 16px;
+}
+
+/*----- Storage-Capacity -----*/
+
+/*----- Start your Web3 journey with Crust Files -----*/
+
+.journey {
+    background-image: url(../images/w-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+
+.journey h3 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 46px;
+}
+.journey.networkss h3 br {
+    display: none;
+}
+.journey p {
+    color: #FFFBF9;
+    margin-bottom: 40px;
+    line-height: 33px;
+    font-size: 21px;
+    width: 94%;
+    text-align: left;
+}
+
+/*----- Start your Web3 journey with Crust Files -----*/
+
+/*----- Why switch to Crust Files? -----*/
+
+.journey.switch {
+    background-image: none;
+    padding: 100px 0;
+}
+
+.journey.switch h3 {
+    color: #000;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+    font-weight: 700;
+}
+
+.journey.switch p {
+    color: #141414;
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.journey.switch .Dropbox p {
+    text-align: justify;
+}
+.journey.switch h4 {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #BB6D18, #F99619, #F99619, #CAA244);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 70px;
+    margin-bottom: 30px;
+    text-align: end;
+}
+
+.journey.switch h4:last-child {
+    margin-bottom: 0px;
+}
+
+/*----- Why switch to Crust Files? -----*/
+
+/*----- More than just a safe place for your data -----*/
+.storesdd {
+    background-image: url('../images/benefits-files-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0 20px 0;
+}
+
+.journey .your {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.box h4 {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.journey.storesdd p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: inherit;
+    line-height: 28px;
+}
+
+.Start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background-color: #202020;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 31px 31px 51px 31px;
+    flex: 0 24%;
+    margin: 50px 5px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 2;
+}
+
+.box:hover {
+    background-color: transparent;
+    border: 1px solid #F99619;
+    transition: 0.3s;
+}
+
+.box:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-radius: 15px;
+    background: linear-gradient(88.03deg, #BB6D18 -5.61%, #F99619 39.78%, #CAA244 109.96%);
+    border: 1px solid #F99619;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.box:hover:after {
+    opacity: 1;
+}
+
+.box:hover img {
+    filter: none;
+}
+
+.immutable img {
+    width: 56px;
+    filter: brightness(0) saturate(100%) invert(10%) sepia(10%) saturate(20%) hue-rotate(328deg) brightness(100%) contrast(95%);
+    transition: 0.3s;
+}
+
+.immutable {
+    width: 100px;
+    height: 57.735px;
+    background: white;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+    margin-bottom: 46px;
+}
+
+.immutable::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid white;
+}
+
+.immutable::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid white;
+}
+
+/*----- More than just a safe place for your data -----*/
+
+/*----- Features for a new Web3 Cloud experience -----*/
+.Features {
+    padding: 70px 0px;
+    position: relative;
+}
+
+.Features h4 {
+    color: #202020;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    text-shadow:2px 2px 4px rgb(0 0 0 / 30%);
+    text-align: center;
+    margin-bottom: 2em;
+}
+.Cloud {
+    perspective: 1000px;
+    margin: 0 14px 50px;
+}
+
+.Cloud h5 {
+    font-weight: 700;
+    margin: 26px 0;
+    font-size: 26px;
+}
+
+.Cloud p {
+    font-size: 18px;
+    width: 76%;
+    margin: 0 auto;
+}
+
+
+.Cloud.Files {
+    margin: 0 14px 0px;
+}
+
+.featuresds {
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    width: 100%;
+}
+
+.featuresds img {
+    height: 510px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* flip animation css  */
+.flip_inner {
+    background: #FFFBF9;
+    box-shadow: 4px 4px 25px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 63%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+  
+  .Cloud:hover .flip_inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip_front, .Flip_back {
+    position: absolute;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding:40px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.Cloud .Flip_back h5{margin-top:0;}
+  .flip_front {
+    color: black;
+  }
+  
+  .Flip_back {
+    background-color: #202020;
+    color: white;
+    transform: rotateY(180deg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Cloud .Flip_back p {
+    width: 100%;
+}
+.Cloud a {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    display:block;
+}
+.plans_btn a {
+    margin: 0 auto 2.5rem;
+}
+/*----- Features for a new Web3 Cloud experience -----*/
+
+/*----- Your Multi-chain storage tool in the Web3 -----*/
+
+.Features.Multi-chain h4 {
+    margin: 0 0 14px 0;
+}
+
+.Features.Multi-chain p {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.logoe {
+    text-align: center;
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inner-logo {
+    margin: 22px 0;
+    flex: 0 16%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/*----- Your Multi-chain storage tool in the Web3 -----*/
+
+/*----- Powered -----*/
+.journey.networkss {
+    padding: 20px 0;
+    background-image: url('../images/new-bg.jpg');
+}
+
+.exposes {
+    margin-left: 12px;
+}
+
+.exposes img {
+    width: 7px;
+}
+
+.accessible img {
+    width: 48%;
+    margin: 58px auto;
+    display: block;
+}
+
+.journey.networkss p {
+    font-weight: 300;
+    width: 94%;
+    font-size: 20px;
+    margin: 15px 0 0px 0;
+}
+
+.btn-h.more {
+    margin-top: 3em;
+}
+
+/*----- Powered -----*/
+
+/*----- On the way to full Decentralization -----*/
+.Features.Multi-chain.sdsds {
+    background-image: url('../images/Globe.png');
+    background-size: unset;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.steps {
+    position: relative;
+    margin-top: 80px;
+}
+
+.steps::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    background-image: linear-gradient(to bottom, #F58006, #ffffff);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    height: 80%;
+}
+
+.steps .content p {
+    color: #676767;
+    font-size: 16px;
+    text-align: left;
+}
+
+.steps .content h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #676767;
+}
+
+.steps-container {
+    position: relative;
+    background-color: inherit;
+    width: calc(50% + 32px);
+    margin-bottom: 40px;
+}
+
+.steps-container .content {
+    padding: 20px 34px;
+    position: relative;
+    margin-right: 40px;
+    background: #FFFBF9;
+    box-shadow: -4px 4px 16px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.steps-container .content:hover {
+    background: #F58006;
+    transition: 0.3s;
+    color: #FFFBF9;
+}
+
+.steps-container .content:hover ul li {
+    color: #FFFBF9;
+}
+
+.steps-container .content:hover svg path {
+    fill: #FFFBF9;
+}
+
+.content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content ul li {
+    position: relative;
+    font-size: 16px;
+    color: #202020;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.content svg {
+    margin-right: 8px;
+    bottom: 1px;
+    position: relative;
+    width: 10px;
+}
+
+.steps .steps-container:nth-child(even) {
+    left: calc(50% - 32px);
+    flex-direction: row-reverse;
+}
+
+.steps-container {
+    display: flex;
+}
+
+.steps .steps-container .date {
+    font-weight: 600;
+    font-size: 16px;
+    color: #F58006;
+    margin-bottom: 0;
+    width: 62px;
+    height: 73px;
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 8;
+    text-align: center;
+    position: relative;
+    line-height: 20px;
+}
+
+.content.amets {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.step-line {
+    width: 40px;
+    background-color: #000;
+    height: 1px;
+    margin-top: 31px;
+    opacity: 0.4;
+    flex-shrink: 0;
+}
+
+.mazim {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 82px;
+    display: flex;
+    right: -4px;
+}
+
+.mazim.sits {
+    right: 0;
+    left: -6px;
+}
+
+@media (max-width: 767px) {
+    .steps::after {
+        left: 32px;
+    }
+
+    .steps-container {
+        right: 0;
+        flex-direction: row-reverse;
+        width: auto;
+    }
+
+    .steps .steps-container:nth-child(even) {
+        left: 0;
+    }
+    
+    .steps-container .content {
+    margin-right: 0;
+        margin-left: 30px;
+            padding: 20px 19px;
+
+}
+.mazim.rs {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    right: -14px;
+}
+.journey.switch h4 {
+    text-align: center;
+}
+}
+
+/*----- On the way to full Decentralization -----*/
+
+/*----- How to get started with crust files? -----*/
+.journey.get {
+    background-image: url('../images/feature.jpg');
+}
+.journey.get h6 {
+    color: #202020;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.hows {
+    background: #FFFBF9;
+    box-shadow: 4px 4px 25px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    height: 100%;
+}
+
+.journey.get p {
+    color: #202020;
+    text-align: center;
+    width: 82%;
+    font-size: 18px;
+    margin: 25px auto 10px;
+    line-height: 29px;
+}
+.hows strong {
+    display: block;
+}
+.For {
+    display: block;
+    margin-top: 44px !important;
+}
+.For a {
+    color: #202020;
+    text-decoration: underline;
+}
+/*----- How to get started with crust files? -----*/
+
+/*----- Frequntly Asked Questions -----*/
+
+.journey.get.Asked {
+    background-image: none;
+}
+.journey.get.Asked h6 {
+    text-align: left;
+    color: #202020;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+}
+.editorsa img {
+    display: block;
+    margin: 0 auto;
+}
+.accordion .accordion-item {
+    border: 0;
+    margin-bottom: 12px;
+}
+.accordion-button {
+    font-size: 18px;
+    padding: 1.3rem 1.25rem;
+}
+.accordion .accordion-item .accordion-header {
+    margin: 0;
+}
+.accordion .accordion-item .accordion-header button {
+    background-color: transparent;
+    box-shadow: inset 0 0px 0 rgb(0 0 0 / 0)
+}
+.accordion .accordion-item .accordion-header button:focus {
+    box-shadow: none;
+}
+.accordion .accordion-item .accordion-body {
+    background-color: #202020;
+    color: #FFFBF9 !important;
+    transition: 0.3s ease-in-out;
+    border-radius: 0 0 10px 10px;
+    padding: 0rem 1.25rem 1rem 1.25rem;
+}
+.accordion .accordion-item .accordion-header button.accordion-button {
+    background-color: #202020;
+    color: #FFFBF9;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: 600;
+}
+.accordion .accordion-item .accordion-header button.accordion-button.collapsed {
+    color: #000;
+    border: 1px solid #e89b29;
+    background: #FFFBF9;
+    border-radius: 20px;
+}
+.accordion .accordion-item .accordion-body p, .accordion .accordion-item .accordion-body ul li {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #FFFBF9 !important;
+    text-align: left;
+    width: 100%;
+    line-height: 34px;
+    margin: 0;
+}
+.accordion .accordion-item .accordion-body ul {
+    padding-left: 16px;
+}
+.accordion .accordion-item .accordion-body ul li {
+    margin-bottom: 4px;
+}
+
+.accordion-button::after {
+    content: "";
+    background-image: url('../images/plus.png');
+    height: 20px;
+    width: 20px;
+    right: 0;
+
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../images/minus.png');
+    right: 0;
+}
+
+.editorsa.documentation {
+    text-align: center;
+}
+.journey.get.Asked .editorsa.documentation h6 {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 49px;
+    line-height: 62px;
+}
+.editorsa.documentation p {
+    font-weight: 500;
+    margin: 44px auto;
+}
+.editorsa.documentation span {
+    font-weight: 700;
+}
+.editorsa.documentation a {
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 12px;
+    font-size: 16px;
+    width: 56%;
+}
+/*----- Frequntly Asked Questions -----*/
+
+/*----- footer -----*/
+
+footer {
+    background-color: #0F0F0F;
+    padding: 70px 0 0 0;
+}
+.footer-logo {
+    margin: 20px 0px 50px auto;
+    display: block;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer a {
+    color: #F98C17;
+    font-size: 18px;
+}
+footer a:hover {
+    color: #FFFBF9;
+}
+.Crustss li a i {
+    font-size: 30px;
+}
+footer p {
+    color: #FFFBF9;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid rgb(255 251 249 / 16%);
+    margin-top: 44px;
+    font-size: 14px;
+}
+
+/*----- footer -----*/
