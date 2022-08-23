@@ -1,4 +1,5 @@
 name: master-cd
+environment: main
 
 on:
   push:
