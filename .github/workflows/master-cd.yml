@@ -23,7 +23,7 @@ jobs:
         run: yarn install --immutable
 
       - name: Build bundle
-        run: PUBLIC_URL=./ yarn run build
+        run: CI=false PUBLIC_URL=./ yarn run build
 
       - name: Upload bundle
         uses: appleboy/scp-action@master
