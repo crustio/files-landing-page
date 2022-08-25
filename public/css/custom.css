@@ -621,13 +621,18 @@ nav ul li:hover .Launch:hover:after {
 .Cloud .Flip_back h5{margin-top:0;}
   .flip_front {
     color: black;
+    backface-visibility: hidden;
+    transition: transform 500ms linear;
+    transform: rotateY(0deg)
   }
   
   .Flip_back {
     background-color: #202020;
     color: white;
     transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 300ms linear;
+    /* -webkit-transform: rotateY(180deg); */
     flex-direction: column;
     align-items: center;
     justify-content: center;
