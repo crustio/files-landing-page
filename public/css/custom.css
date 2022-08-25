@@ -600,7 +600,6 @@ nav ul li:hover .Launch:hover:after {
   
   .Cloud:hover .flip_inner {
     transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
   }
   
   .flip_front, .Flip_back {
@@ -613,7 +612,6 @@ nav ul li:hover .Launch:hover:after {
     padding:40px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    visibility:visible;
     display: flex;
     flex-direction: column;
     justify-content: center;
