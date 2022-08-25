@@ -610,8 +610,8 @@ nav ul li:hover .Launch:hover:after {
     left: 0;
     top: 0;
     padding:40px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; */
     display: flex;
     flex-direction: column;
     justify-content: center;
