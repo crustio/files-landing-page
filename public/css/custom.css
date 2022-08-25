@@ -600,6 +600,7 @@ nav ul li:hover .Launch:hover:after {
   
   .Cloud:hover .flip_inner {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
   }
   
   .flip_front, .Flip_back {
@@ -613,8 +614,6 @@ nav ul li:hover .Launch:hover:after {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     visibility:visible;
-    -webkit-perspective: 0;
-    -webkit-transform: translate3d(0,0,0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -630,6 +629,7 @@ nav ul li:hover .Launch:hover:after {
     background-color: #202020;
     color: white;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
     flex-direction: column;
     align-items: center;
     justify-content: center;
