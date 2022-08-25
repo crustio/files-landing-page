@@ -622,6 +622,7 @@ nav ul li:hover .Launch:hover:after {
   .flip_front {
     color: black;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     transition: transform 500ms linear;
     transform: rotateY(0deg)
   }
@@ -631,6 +632,7 @@ nav ul li:hover .Launch:hover:after {
     color: white;
     transform: rotateY(180deg);
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     transition: transform 300ms linear;
     /* -webkit-transform: rotateY(180deg); */
     flex-direction: column;
