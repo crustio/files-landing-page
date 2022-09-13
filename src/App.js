@@ -308,7 +308,7 @@ function App() {
                   <div class="Flip_back">
                     <h5>PUBLIC</h5>
                     <p>Maintain your data immutable, unstoppable and always accessible in a 100% decentralized network with up to 60 replicas for each file.</p>
-                    <a href="#0">Learn more</a>
+                    {/* <a href="#0">Learn more</a> */}
                   </div>
                 </div>
               </div>
@@ -324,7 +324,7 @@ function App() {
                   <div class="Flip_back">
                     <h5>VAULT</h5>
                     <p>Encrypted cloud storage with the highest security  possible. Nobody else but you is holding the keys to your most sensitive and private data. </p>
-                    <a href="#0">Learn more</a>
+                    {/* <a href="#0">Learn more</a> */}
                   </div>
                 </div>
               </div>
@@ -340,7 +340,7 @@ function App() {
                   <div class="Flip_back">
                     <h5>PAY 2 DOWNLOAD</h5>
                     <p>Upload your files, set a price and  offer your data to potential buyers via payment links. Enjoy P2P data sales in a totally private and trustless environment.</p>
-                    <a href="#0">Learn more</a>
+                    {/* <a href="#0">Learn more</a> */}
                   </div>
                 </div>
               </div>
@@ -356,7 +356,7 @@ function App() {
                   <div class="Flip_back">
                     <h5>FILE SHARING</h5>
                     <p>Share your files with friends, family and colleagues via direct link  or with your personalized Twitter link.</p>
-                    <a href="#0">Learn more</a>
+                    {/* <a href="#0">Learn more</a> */}
                   </div>
                 </div>
               </div>
@@ -372,7 +372,7 @@ function App() {
                   <div class="Flip_back">
                     <h5>SHARE 2 EARN</h5>
                     <p>Premium users are eligible to  earn Crust tokens by inviting users and via one of many different activities such as “Lucky Newbie” or  the “Grand Daw”</p>
-                    <a href="#0">Learn more</a>
+                    {/* <a href="#0">Learn more</a> */}
                   </div>
                 </div>
               </div>
