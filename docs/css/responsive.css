@@ -1,3 +1,26 @@
+@media (min-width: 1200px) {
+    .Capacity:nth-child(2) {
+        border: 2px;
+        border-style: solid dashed solid solid;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .Capacity:nth-child(3) {
+        border: 2px;
+        border-style: solid none solid none;
+    }
+    .Capacity:nth-child(4) {
+        border: 2px;
+        border-style: solid none solid none;
+    }
+    .Capacity:nth-child(5) {
+        border: 2px;
+        border-style: solid solid solid none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px
+    }
+}
+
 @media (min-width: 768px) {
   
 nav .nav-toggle {
