@@ -128,39 +128,42 @@ function App() {
               </div>
             </div>
 
+            <div class="col-12 col-sm-12 col-md-6 col-lg-2 Capacity TB">
+              <div class="Storage distributed">
+                <div class="nodes">
+                  <h2>Backed by</h2>
+                  <h2>Crust Network</h2>
+                </div>
+                {/* <img src="images/Line.png" /> */}
+              </div>          
+            </div>
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 Capacity">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-2 Capacity TB">
               <div class="Storage distributed">
                 <div class="nodes">
                   <h2>{capacity} TB</h2>
                   <p>Total storage capacity</p>
                 </div>
-                <img src="images/Line.png" />
               </div>
             </div>
 
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 Capacity TB">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-2 Capacity TB">
               <div class="Storage distributed">
                 <div class="nodes">
                   <h2 style={{ fontSize: '22px' }}>{price} $/GB/Year</h2>
                   <p>Real time storage price</p>
                 </div>
-                <img src="images/Line.png" />
               </div>
             </div>
 
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3 Capacity TB">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-2 Capacity TB">
               <div class="Storage distributed">
                 <div class="nodes">
                   <h2>{nodesCount}</h2>
                   <p>Globally distributed nodes</p>
                 </div>
-
               </div>
             </div>
-
           </div>
         </div>
       </section>
