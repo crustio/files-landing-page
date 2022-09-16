@@ -595,7 +595,7 @@ function App() {
                 <p><strong>Optional:</strong>Deposit some CRU to recieve a lifetime Premium Member-ship with many benefits.</p>
               </div>
             </div>
-            <p class="For">For more detailed information please visit <a href="https://crustfiles.io/docs/CrustFiles_Welcome/">Crust Files Uset Documentation</a></p>
+            <p class="For">For more detailed information please visit <a href="https://crustfiles.io/docs/CrustFiles_Welcome/">Crust Files User Documentation</a></p>
           </div>
         </div>
       </section>
