@@ -20,7 +20,7 @@ function App() {
   }, [width])
 
   useEffect(() => {
-    fetch(`https://api.crustfiles.com/common/userAmount`)
+    fetch(`https://api.crustfiles.io/common/userAmount`)
       .then(response => {
         if (response.ok) return response.json();
         throw response;
